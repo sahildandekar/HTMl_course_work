@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+#HI{
+text-align: center;
+box-sizing: border-box;
+}
+p{
+background-color: rgb(197, 130, 130);
+border:1px  black;
+width: 90%;
+height: 150px;
+margin-right: auto;
+margin-left: auto;
+font-family: Helvetica;
+color: white;
+}
+.row{
+width: 100%;
+}
+@media(min-width : 992px){
+.col-lg-1{
+    width: 25%;
+}
+.col-lg-2{
+    width: 16.66%;
+}
+.col-lg-3{
+    width: 8.33;
+}
+@media (min-width:768px)and (max-width : 919px) {
+.col-md-1{
+    width: 25%;
+}
+.col-md-2{
+    width: 16.66%;
+}
+.col-md-3{
+    width: 8.33;
+}
+
+}
+}
+
